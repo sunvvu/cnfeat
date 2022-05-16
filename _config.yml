@@ -1,0 +1,48 @@
+# Site settings
+title: 大菠萝博客屋 # 你的博客名字，可以定义修订
+header-img: "img/green.jpg"
+tagline: "cn"  
+description: "大菠萝博客屋，助力每一个梦想"  # 一句话描述你的博客
+baseurl: ""
+url: "http://sunvvu.github.io"  # 此处填写你的博客地址 
+
+# About/contact
+owner: 
+  name: "赛博" # 填写作者信息：名字
+  email: X@gmail.com # 填写作者信息：邮箱
+  bio: "助力每一个梦想" # 填写作者信息：博客描述
+
+# Data
+gavatar: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
+favicon: img/favicon.ico # 浏览器地址栏小图标，可自定义更改
+
+twitter_username: 菠萝
+github_username: 
+zhihu_username: 菠萝
+
+# Build settings  
+# use Github Flavored Markdown !important  
+# document: http://jekyllrb.com/docs/configuration/#kramdown  
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
+
+# Defaults for posts
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "小音" # 你的名字
+      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
+
+
+
+# Links to include in footer navigation
